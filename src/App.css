@@ -1,8 +1,24 @@
 .main-header {
-  display: flex;
+	display: flex;
 }
 
 .header-info {
-  width: 80%;
-  text-align: right;
+	width: 80%;
+	text-align: right;
 }
+
+.main-body {
+	margin-right: 8%;
+}
+
+.sidebar-menu {
+	width: 8%;
+	right: 0;
+	height: 100%;
+	background-color: #fff;
+	position: fixed !important;
+	z-index: 1;
+  overflow: auto;
+  list-style: none;
+}
+

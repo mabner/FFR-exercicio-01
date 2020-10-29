@@ -1,14 +1,15 @@
 import React from 'react';
-import { Articles } from './Articles';
-export const Sidebar = (props) => (
-	<nav className="sidebar-menu">
-		<ul>
-			{props.items.map((item) => (
-				<li>
-					<Articles items={this.state.articles} />
-					<a href="#{item.title}">{item.title}</a>
-				</li>
-			))}
-		</ul>
-	</nav>
+export const Sidebar = () => (
+	<ul className="sidebar-menu">
+		<li>
+			<a href="/#Artigo 1">Artigo 1</a>
+		</li>
+		<li>
+			<a href="/#Artigo 2">Artigo 2</a>
+		</li>
+		<li>
+			<a href="/#Artigo 3">Artigo 3</a>
+		</li>
+
+	</ul>
 );
