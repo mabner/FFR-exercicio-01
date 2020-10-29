@@ -27,5 +27,14 @@
 .article-body{
 	width: 80%;
 	position: relative;
-	padding: 1vw;
+	display: flex;
+}
+.article-items{
+	display: table-cell;
+	padding: 4px;
+}
+
+.imageText{
+	font-size: 8pt;
+	padding: 0;
 }
